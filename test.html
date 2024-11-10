@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji for Weaboo</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Kanji for Weaboo</h1>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="kanjiInput" placeholder="Please copy & paste the kanji, idiom, or four-character idiom you want to look up.">
+      <button onclick="searchKanji()">Search</button>
+    </section>
+
+    <section class="result-section" id="resultSection">
+      <!-- 検索結果がここに表示されます -->
+    </section>
+
+    <section class="admin-section" id="adminSection">
+      <h2>Let's register the lines</h2>
+      <form id="adminForm">
+        <input type="text" id="adminKanjiInput" placeholder="Kanji">
+        <input type="text" id="animeNameInput" placeholder="Anime">
+        <input type="text" id="episodeInput" placeholder="Episode">
+        <input type="text" id="timeInput" placeholder="Time">
+        <input type="text" id="characterInput" placeholder="Character">
+        <input type="text" id="lineInput" placeholder="Line">
+        <input type="text" id="meaningInput" placeholder="Meaning">
+        <input type="text" id="targetCharacterInput" placeholder="TargetCharacter">
+        <button type="button" onclick="registerAnimeData()">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Kanji for Weaboo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

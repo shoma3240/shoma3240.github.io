@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://your-anime-background-image-url.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 150px;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+  }
+
+  .search-section, .admin-section {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .search-section input, .admin-section input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .search-section button, .admin-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4081;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .search-section button:hover, .admin-section button:hover {
+    background-color: #e91e63;
+  }
+
+  .result-section {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
